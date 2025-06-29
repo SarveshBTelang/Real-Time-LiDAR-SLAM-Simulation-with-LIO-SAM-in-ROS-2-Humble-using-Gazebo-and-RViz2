@@ -70,6 +70,8 @@ LIO-SAM-ros2: https://github.com/TixiaoShan/LIO-SAM
 velodyne_simulator: https://github.com/ToyotaResearchInstitute/velodyne_simulator
 
 https://www.youtube.com/@robotmania8896: https://youtu.be/NNR9RUNz5Pg?si=Ex7P1nzOOn515r1_
---> Migration to ROS 2 Humble with necessary bug fixes
---> Navigation using teleop_twist_keyboard in ros2 instead of joypad
---> Customized robot model and improved world env
+
+This repo extends this to:
+- Migration to ROS 2 Humble with necessary bug fixes
+- Navigation using teleop_twist_keyboard in ros2 instead of joypad
+- Customized robot model and improved world env
