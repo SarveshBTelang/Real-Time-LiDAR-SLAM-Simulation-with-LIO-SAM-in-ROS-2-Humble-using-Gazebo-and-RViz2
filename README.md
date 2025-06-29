@@ -14,7 +14,7 @@ This project demonstrates a real-time LiDAR-based SLAM (Simultaneous Localizatio
 Ensure you have the following installed:
 
 - ROS 2 Humble
-- Gazebo (Fortress or compatible)
+- Gazebo 11 (Classic or compatible)
 - RViz2
 - colcon (ROS 2 build tool)
 - CloudCompare (for .pcd file visualization, optional)
