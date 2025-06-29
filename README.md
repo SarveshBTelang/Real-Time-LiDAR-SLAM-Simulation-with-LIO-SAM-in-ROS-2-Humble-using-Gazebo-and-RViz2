@@ -66,10 +66,10 @@ To save .pcd files make sure you have created directory for it in /home/<user>/D
 .pcd files can be analyzed with CloudCompare software or online LIDAR viewer tools.
 
 ## References
-LIO-SAM-ros2: https://github.com/TixiaoShan/LIO-SAM
-velodyne_simulator: https://github.com/ToyotaResearchInstitute/velodyne_simulator
+- LIO-SAM-ros2: https://github.com/TixiaoShan/LIO-SAM
+- velodyne_simulator: https://github.com/ToyotaResearchInstitute/velodyne_simulator
 
-https://www.youtube.com/@robotmania8896: https://youtu.be/NNR9RUNz5Pg?si=Ex7P1nzOOn515r1_
+- https://www.youtube.com/@robotmania8896: https://youtu.be/NNR9RUNz5Pg?si=Ex7P1nzOOn515r1_
 
 This repo extends this to:
 - Migration to ROS 2 Humble with necessary bug fixes
