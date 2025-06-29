@@ -25,11 +25,11 @@ Ensure you have the following installed:
 
 Clone the following repositories into the `src/` folder of your workspace (e.g., `lio_sam_gazebo_ros2/src`):
 
-### A. LIO-SAM for ROS 2
+### a]. LIO-SAM for ROS 2
 - Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
 - Note: Replace the default `params.yaml` with the one provided in this repository.
 
-### B. Velodyne Simulator
+### b]. Velodyne Simulator
 - Repository: [https://github.com/ToyotaResearchInstitute/velodyne_simulator](https://github.com/ToyotaResearchInstitute/velodyne_simulator)
 
 ---
@@ -44,7 +44,7 @@ colcon build --parallel-workers 1
 ```
 Ensure all necessary dependencies are listed in the respective CMakeLists.txt files for each package in the src/ directory.
 
-Before launching the build ,copy the required Gazebo models for the factory world to your ~/.gazebo/models/ directory, if not already present.
+Before launching the build, copy the required Gazebo models for the factory world to your ~/.gazebo/models/ directory, if not already present.
 
 ## Launch Instructions
 
