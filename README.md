@@ -1,9 +1,5 @@
 # Real-Time LiDAR SLAM Simulation with LIO-SAM in ROS 2 Humble using Gazebo and RViz2
 
-## Project Overview
-
-This project demonstrates a real-time point cloud generation using LiDAR-SLAM (Simultaneous Localization and Mapping) algorithm - **LIO-SAM** in ROS 2 Humble. The simulation environment is built with Gazebo and visualized in RViz2. It uses a Velodyne LiDAR & IMU sensors with a customized 4-wheeled robot in a simulated factory world environment.
-
 <p align="center">
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache-2.0" />
@@ -18,6 +14,10 @@ This project demonstrates a real-time point cloud generation using LiDAR-SLAM (S
   <img src="https://img.shields.io/badge/Rviz-2-blue" alt="Rviz" />
   <img src="https://img.shields.io/badge/Ubuntu-22.04-blue" alt="Ubuntu" />
 </p>
+
+## Project Overview
+
+This project demonstrates a real-time point cloud generation using LiDAR-SLAM (Simultaneous Localization and Mapping) algorithm - **LIO-SAM** in ROS 2 Humble. The simulation environment is built with Gazebo and visualized in RViz2. It uses a Velodyne LiDAR & IMU sensors with a customized 4-wheeled robot in a simulated factory world environment.
 
 [![Demo](results/rgb_point_cloud.png)](https://github.com/user-attachments/assets/194f1e06-5c52-43db-a424-8b3c177a9e14)
 
