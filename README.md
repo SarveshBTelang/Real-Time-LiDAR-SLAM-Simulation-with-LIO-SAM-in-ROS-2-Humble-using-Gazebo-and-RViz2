@@ -29,6 +29,7 @@ This project demonstrates a real-time point cloud generation using LiDAR-SLAM (S
 LIO-SAM is a framework designed for highly accurate, real-time trajectory estimation and map-building for mobile robots. It builds lidar-inertial odometry using a factor graph approach, enabling the integration of various relative and absolute measurements—such as loop closures—from multiple sources as factors within the system. 
 
 Below is a diagram representing the architectural layout of the LIO-SAM algorithm
+
 ![lio_sam_architecture](results/lio_sam_architecture.png)
 
 For more information, refer to the original documentation of LIO-SAM Algorithm through this repository: https://github.com/TixiaoShan/LIO-SAM
