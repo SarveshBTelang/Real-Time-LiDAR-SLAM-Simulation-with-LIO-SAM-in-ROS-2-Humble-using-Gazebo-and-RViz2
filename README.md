@@ -20,10 +20,16 @@
 ![Simulation Result Overview](results/final_result_overview.png)
 ![Simulation Environment](results/environment.png)
 
-## Overview
+## Project Overview
 
-This project demonstrates a real-time LiDAR-based SLAM (Simultaneous Localization and Mapping) simulation using the LIO-SAM algorithm in ROS 2 Humble. The simulation environment is built with Gazebo and visualized in RViz2. It uses a Velodyne LiDAR sensor model and a custom robot in a simulated world.
+This project demonstrates a real-time point cloud generation using LiDAR-SLAM (Simultaneous Localization and Mapping) algorithm - *LIO-SAM* in ROS 2 Humble. The simulation environment is built with Gazebo and visualized in RViz2. It uses a Velodyne LiDAR & IMU sensors with a customized 4-wheeled robot in a simulated factory world environment.
 
+## What is LIO-SAM?
+
+LIO-SAM is a framework designed for highly accurate, real-time trajectory estimation and map-building for mobile robots. It builds lidar-inertial odometry using a factor graph approach, enabling the integration of various relative and absolute measurements—such as loop closures—from multiple sources as factors within the system.
+
+Refer to the documentation of LIO-SAM Algorithm through this repository:
+https://github.com/TixiaoShan/LIO-SAM
 ---
 
 ## Prerequisites
