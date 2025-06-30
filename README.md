@@ -69,6 +69,7 @@ lio_sam_gazebo_ros2/
     └── velodyne_simulator/
         ├── CMakeLists.txt
         ├── package.xml
+        ├── <other files>
 ```
 
 ### 3. Create a build:
