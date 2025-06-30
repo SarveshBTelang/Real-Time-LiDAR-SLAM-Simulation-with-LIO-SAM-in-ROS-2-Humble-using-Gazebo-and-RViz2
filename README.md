@@ -92,13 +92,13 @@ Before launching the build, copy all files from `lio_sam_gazebo_ros2/models/fact
 
 ## Launch Instructions
 
-### 1. 1st Terminal- Launch Gazebo Simulation
+### 1. 1st Terminal- Launches Gazebo Simulation
 ```bash
 source lio_sam_gazebo_ros2/install/setup.bash
 
 ros2 launch robot_gazebo robot_sim.launch.py
 ```
-### 2. 2nd terminal- Launch Rviz2 to visualize LiDAR Point Cloud in real-time
+### 2. 2nd terminal- Loads Rviz2 to visualize LiDAR Point Cloud in real-time
 ```bash
 source lio_sam_gazebo_ros2/install/setup.bash
 
