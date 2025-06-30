@@ -1,5 +1,20 @@
 # Real-Time LiDAR SLAM Simulation with LIO-SAM in ROS 2 Humble using Gazebo and RViz2
 
+<p align="center">
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache-2.0" />
+  </a>
+  <img src="https://img.shields.io/github/repo-size/SarveshBTelang/Real-Time-LiDAR-SLAM-Simulation-with-LIO-SAM-in-ROS-2-Humble-using-Gazebo-and-RViz2" alt="Repo Size" />
+  <img src="https://img.shields.io/github/last-commit/SarveshBTelang/Real-Time-LiDAR-SLAM-Simulation-with-LIO-SAM-in-ROS-2-Humble-using-Gazebo-and-RViz2" alt="Last Commit" />
+  <img src="https://img.shields.io/github/issues/SarveshBTelang/Real-Time-LiDAR-SLAM-Simulation-with-LIO-SAM-in-ROS-2-Humble-using-Gazebo-and-RViz2" alt="Issues" />
+  <img src="https://img.shields.io/github/issues-pr/SarveshBTelang/Real-Time-LiDAR-SLAM-Simulation-with-LIO-SAM-in-ROS-2-Humble-using-Gazebo-and-RViz2" alt="Pull Requests" />
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg" alt="Contributions welcome" />
+  <img src="https://img.shields.io/badge/ROS2-Humble-yellow" alt="ROS" />
+  <img src="https://img.shields.io/badge/Gazebo-11-yellow" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/Rviz-2-blue" alt="Rviz" />
+  <img src="https://img.shields.io/badge/Ubuntu-22.04-blue" alt="Ubuntu" />
+</p>
+
 [![Demo](results/rgb_point_cloud.png)](https://github.com/user-attachments/assets/194f1e06-5c52-43db-a424-8b3c177a9e14)
 
 ![Simulation Result Overview](results/final_result_overview.png)
