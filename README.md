@@ -50,18 +50,28 @@ Ensure you have the following installed:
 
 ## Build Instructions
 
-1. Fork and clone this repository
+### 1. Fork and clone this repository
+`lio_sam_gazebo_ros2/src` contains the necessary packages to build using cmake/ colcon
 
-2. Clone the following repositories into the `src/` folder of `lio_sam_gazebo_ros2`
+`lio_sam_gazebo_ros2/src/LIO-SAM-ros2` hosts the lio_sam package, adapted with certain modifications to ensure compatibility with ROS 2 and integration into this point cloud generation project.
 
-### a]. LIO-SAM for ROS 2
-- Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
-- Note: Replace the default `params.yaml` with the one provided in this repository.
+Refer to original lio_sam documentation for more information 
 
-### b]. Velodyne Simulator
-- Repository: [https://github.com/ToyotaResearchInstitute/velodyne_simulator](https://github.com/ToyotaResearchInstitute/velodyne_simulator)
+Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
 
-3. Create a build:
+### 2. Clone the `velodyne_simulator` package repo from below repository. Make sure it follows the specified structure
+
+Repository: [https://github.com/ToyotaResearchInstitute/velodyne_simulator](https://github.com/ToyotaResearchInstitute/velodyne_simulator)
+
+```bash
+lio_sam_gazebo_ros2/
+└── src/
+    └── velodyne_simulator/
+        ├── CMakeLists.txt
+        ├── package.xml
+```
+
+### 3. Create a build:
 
 (Ensure all necessary dependencies are listed in the respective CMakeLists.txt files for each package in the src/ directory.)
 
@@ -73,17 +83,19 @@ colcon build
 (You could use `colcon build --parallel-workers 1` to limit memory usage)
 ```
 
-4. IMP: Before launching the build, copy all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
+### 4. Configuring world env: 
+
+Before launching the build, copy all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
 
 ## Launch Instructions
 
-1. 1st Terminal- Launch Gazebo Simulation
+### 1. 1st Terminal- Launch Gazebo Simulation
 ```bash
 source lio_sam_gazebo_ros2/install/setup.bash
 
 ros2 launch robot_gazebo robot_sim.launch.py
 ```
-2. 2nd terminal
+### 2. 2nd terminal
 ```bash
 source lio_sam_gazebo_ros2/install/setup.bash
 
