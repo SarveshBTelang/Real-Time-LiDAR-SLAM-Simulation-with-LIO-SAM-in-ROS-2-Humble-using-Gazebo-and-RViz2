@@ -1,6 +1,6 @@
 # Real-Time LiDAR SLAM Simulation with LIO-SAM in ROS 2 Humble using Gazebo and RViz2
 
-[![Demo](results/rgb_point_cloud.png)](https://github.com/user-attachments/assets/ea3b77f9-1b15-48e8-b3d5-18a68de2fae2)
+[![Demo](results/rgb_point_cloud.png)](https://github.com/user-attachments/assets/194f1e06-5c52-43db-a424-8b3c177a9e14)
 
 ![Simulation Result Overview](results/final_result_overview.png)
 ![Simulation Environment](results/environment.png)
