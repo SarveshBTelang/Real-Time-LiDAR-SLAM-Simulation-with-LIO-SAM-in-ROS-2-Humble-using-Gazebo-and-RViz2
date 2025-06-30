@@ -48,7 +48,7 @@ colcon build
 (You could use `colcon build --parallel-workers 1` to limit memory usage)
 ```
 
-4. IMP: Before launching the build, copy the all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
+4. IMP: Before launching the build, copy all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
 
 ## Launch Instructions
 
