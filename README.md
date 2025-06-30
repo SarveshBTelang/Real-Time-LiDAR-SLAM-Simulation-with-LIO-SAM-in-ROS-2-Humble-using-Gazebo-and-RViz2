@@ -107,3 +107,7 @@ This repo extends this to:
 - Migration to ROS 2 Humble with necessary bug fixes
 - Navigation using teleop_twist_keyboard in ros2 instead of joypad
 - Customized robot model and improved world env
+
+Modified robot urdf source:
+- https://catalog.ngc.nvidia.com/orgs/nvidia/teams/isaac/containers/nova_carter_bringup
+- https://github.com/NVIDIA-ISAAC-ROS/nova_carter
