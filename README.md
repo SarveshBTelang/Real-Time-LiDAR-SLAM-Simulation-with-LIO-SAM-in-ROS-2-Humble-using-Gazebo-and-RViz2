@@ -55,6 +55,8 @@ Ensure you have the following installed:
 
 `lio_sam_gazebo_ros2/src/LIO-SAM-ros2` hosts the lio_sam package, adapted with certain modifications to ensure compatibility with ROS 2 and integration into this point cloud generation project.
 
+Tested: 30.06.2025
+
 Refer to original lio_sam documentation for more information 
 
 Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
@@ -117,7 +119,7 @@ To save .pcd files make sure you have created directory for it in /home/<user>/D
 - https://www.youtube.com/@robotmania8896: https://youtu.be/NNR9RUNz5Pg?si=Ex7P1nzOOn515r1_
 
 This repo extends this to:
-- Migration to ROS 2 Humble with necessary bug fixes
+- Migration to ROS 2 Humble with necessary bug fixes especially in CMakeLists.txt
 - Navigation using teleop_twist_keyboard in ros2 instead of joypad
 - Customized robot model and improved world env
 
