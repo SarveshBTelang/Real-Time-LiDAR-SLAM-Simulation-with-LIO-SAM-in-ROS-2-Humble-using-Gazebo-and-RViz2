@@ -21,9 +21,11 @@ Ensure you have the following installed:
 
 ---
 
-## Repository Structure & Dependencies
+## Build Instructions
 
-Clone the following repositories into the `src/` folder of your workspace (e.g., `lio_sam_gazebo_ros2/src`):
+1. Fork and clone this repository
+
+2. Clone the following repositories into the `src/` folder of `lio_sam_gazebo_ros2`
 
 ### a]. LIO-SAM for ROS 2
 - Repository: [https://github.com/TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM)
@@ -32,19 +34,19 @@ Clone the following repositories into the `src/` folder of your workspace (e.g.,
 ### b]. Velodyne Simulator
 - Repository: [https://github.com/ToyotaResearchInstitute/velodyne_simulator](https://github.com/ToyotaResearchInstitute/velodyne_simulator)
 
----
+3. Create a build:
 
-## Build Instructions
+(Ensure all necessary dependencies are listed in the respective CMakeLists.txt files for each package in the src/ directory.)
 
 ```bash
 cd lio_sam_gazebo_ros2
-colcon build
-# To limit memory usage:
-colcon build --parallel-workers 1
-```
-Ensure all necessary dependencies are listed in the respective CMakeLists.txt files for each package in the src/ directory.
 
-Before launching the build, copy the required Gazebo models for the factory world to your ~/.gazebo/models/ directory, if not already present.
+colcon build
+
+(You could use `colcon build --parallel-workers 1` to limit memory usage)
+```
+
+4. Before launching the build, copy the required Gazebo models for the factory world to your ~/.gazebo/models/ directory, if not already present.
 
 ## Launch Instructions
 
@@ -60,6 +62,9 @@ source lio_sam_gazebo_ros2/install/setup.bash
 
 ros2 launch lio_sam run.launch.py
 ```
+
+## Save Results
+
 To save .pcd files make sure you have created directory for it in /home/<user>/Downloads/LOAM/
 (see LIO-SAM-ros2/src/mapOptmization.cpp for more details.)
 
