@@ -98,7 +98,7 @@ source lio_sam_gazebo_ros2/install/setup.bash
 
 ros2 launch robot_gazebo robot_sim.launch.py
 ```
-### 2. 2nd terminal
+### 2. 2nd terminal- Launch Rviz2 to visualize LiDAR Point Cloud in real-time
 ```bash
 source lio_sam_gazebo_ros2/install/setup.bash
 
