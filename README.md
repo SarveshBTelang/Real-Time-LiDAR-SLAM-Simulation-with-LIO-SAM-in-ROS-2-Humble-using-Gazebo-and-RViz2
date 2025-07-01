@@ -53,7 +53,7 @@ Ensure you have the following installed:
 ### 1. Fork and clone this repository
 `lio_sam_gazebo_ros2/src` contains the necessary packages to build using cmake/ colcon
 
-`lio_sam_gazebo_ros2/src/LIO-SAM-ros2` hosts the lio_sam package with certain modifications to ensure compatibility with ROS 2 and integration into this point cloud generation project.
+`lio_sam_gazebo_ros2/src/LIO-SAM-ros2` hosts the lio_sam package with certain modifications compared to the original to ensure compatibility with ROS 2 and integration into this point cloud generation project.
 
 Tested: 30.06.2025
 
@@ -88,7 +88,7 @@ colcon build
 
 ### 4. Configuring world env: 
 
-Before launching the build, copy all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
+Before launching the simulation, copy all files from `lio_sam_gazebo_ros2/models/factory_model/` (Gazebo models for the factory world) to your `/home/<user>/.gazebo/models/` directory
 
 ## Launch Instructions
 
